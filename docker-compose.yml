@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+  php:
+    build: .
+    depends_on:
+      - mariadb
+    volumes:
+      - ./:/home/r/php-mysql-uuid-vs-incremental
+    networks:
+      - default
+  mariadb:
+    image: mariadb:10
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    networks:
+      - default
+    ports:
+      - 127.0.0.1:3306:3306
