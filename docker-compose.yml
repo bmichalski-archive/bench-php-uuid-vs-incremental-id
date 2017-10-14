@@ -6,7 +6,7 @@ services:
     depends_on:
       - mariadb
     volumes:
-      - ./:/home/r/php-mysql-uuid-vs-incremental
+      - ./:/home/r/php-uuid-vs-incremental-id
     networks:
       - default
   mariadb:
