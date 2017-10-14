@@ -12,3 +12,9 @@ RUN \
 
 RUN \
   adduser --disabled-password --gecos '' r
+
+RUN \
+  touch /var/log/syslog
+
+CMD tail -f /var/log/syslog
+
