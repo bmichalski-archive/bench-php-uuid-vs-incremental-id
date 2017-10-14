@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__.'/setup.php';
+require __DIR__ . '/mysql_setup.php';
 
 $exec('CREATE TABLE incremental (id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY)');
 

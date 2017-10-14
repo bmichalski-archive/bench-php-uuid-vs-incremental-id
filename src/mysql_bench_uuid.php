@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__.'/setup.php';
+require __DIR__ . '/mysql_setup.php';
 
 $exec('CREATE TABLE uuid (uuid BINARY(16) PRIMARY KEY)');
 
