@@ -10,7 +10,7 @@ docker exec -it phpuuidvsincrementalidbench_php_1 bash
 Then inside the container:
 ```bash
 su - r
-cd php-mysql-uuid-vs-incremental
+cd php-uuid-vs-incremental-id
 ```
 
 # MySQL UUID benchmark
