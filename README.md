@@ -3,7 +3,6 @@
 ```bash
 composer install -vvv
 docker-compose build
-docker-compose stop
 docker-compose up
 docker exec -it benchphpmysqluuidvsincremental_php_1 bash
 ```
