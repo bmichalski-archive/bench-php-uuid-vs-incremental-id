@@ -17,3 +17,11 @@ services:
       - default
     ports:
       - 127.0.0.1:3306:3306
+  postgres:
+    image: postgres:10
+    environment:
+      - POSTGRES_PASSWORD=postgres
+    networks:
+      - default
+    ports:
+      - 127.0.0.1:5432:5432
