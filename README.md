@@ -4,7 +4,7 @@
 composer install -vvv
 docker-compose build
 docker-compose up
-docker exec -it benchphpmysqluuidvsincremental_php_1 bash
+docker exec -it phpuuidvsincrementalidbench_php_1 bash
 ```
 
 Then inside the container:
